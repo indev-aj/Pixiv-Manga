@@ -29,7 +29,7 @@
           <button onclick="nextPage()" class="btn blue lighten-1 z-depth-0" style="margin-bottom: 30px;">Next</button>
         </div> -->
       </div>
-      <div class="col s2 l6 offset-l2" style="margin-bottom: 25px;">
+      <div class="col s12 m12 l12 offset-l2" style="margin-bottom: 25px;">
         <button onclick="prevPage()" class="btn blue lighten-1 z-depth-0" >Prev</button>
         <button onclick="nextPage()" class="btn blue lighten-1 z-depth-0">Next</button>
       </div>

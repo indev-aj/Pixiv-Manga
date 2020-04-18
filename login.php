@@ -1,10 +1,3 @@
-<?php
-
-  if(isset($_POST['login'])) {
-    echo $_POST['email'];
-  }
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,7 +33,7 @@
                 <label for="password">Password</label>
               </div>
               <div class="input-field">
-                <button value="login" name="login" class="btn blue lighten-1 waves-effect waves-dark" style="width: 100%;">Login</button>
+                <button value="login" name="submitlogin" class="btn blue lighten-1 waves-effect waves-dark" style="width: 100%;">Login</button>
               </div>
             </form>
           </div>

@@ -21,29 +21,31 @@
       <div class="col s12 l6 offset-l3">
         <div class="card">
           <div class="card-content">
-          <div class="input-field">
-              <i class="material-icons prefix black-text">account_circle</i>
-              <input type="text" name="username" id="username">
-              <label for="username">Username</label>
-            </div>
-            <div class="input-field">
-              <i class="material-icons prefix black-text">email</i>
-              <input type="text" name="email" id="email">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field">
-              <i class="material-icons prefix black-text">lock</i>
-              <input type="password" name="password" id="password">
-              <label for="password">Password</label>
-            </div>
-            <div class="input-field">
-              <i class="material-icons prefix black-text">enhanced_encryption</i>
-              <input type="password" name="confirm_password" id="confirm_password">
-              <label for="confirm_password">Confirm Password</label>
-            </div>
-            <div class="input-field">
-              <button value="login" name="login" class="btn blue lighten-1 waves-effect waves-dark" style="width: 100%;">Register</button>
-            </div>
+            <form action="services/register_service.php" method="POST">
+              <div class="input-field">
+                <i class="material-icons prefix black-text">account_circle</i>
+                <input type="text" name="username" id="username">
+                <label for="username">Username</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix black-text">email</i>
+                <input type="text" name="email" id="email">
+                <label for="email">Email</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix black-text">lock</i>
+                <input type="password" name="password" id="password">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field">
+                <i class="material-icons prefix black-text">enhanced_encryption</i>
+                <input type="password" name="confirm_password" id="confirm_password">
+                <label for="confirm_password">Confirm Password</label>
+              </div>
+              <div class="input-field">
+                <button value="login" name="submitRegister" class="btn blue lighten-1 waves-effect waves-dark" style="width: 100%;">Register</button>
+              </div>
+            </form>
           </div>
         </div>
       </div>

@@ -36,20 +36,21 @@
 
   <script>
     var currentPage = 1;
-    var url = `img/chapter-1/${currentPage}.jpg`;
+    var title = `manga/Shishido Senpai/Chapter 1`
+    var url = `${title}/${currentPage}.jpg`;
 
     const image = document.querySelector('img');
     image.src = url;
 
     function nextPage() {
       currentPage+=1;
-      url = `img/chapter-1/${currentPage}.jpg`;
+      url = `${title}/${currentPage}.jpg`;
       image.src = url;
     };
 
     function prevPage() {
       currentPage-=1;
-      var url = `img/chapter-1/${currentPage}.jpg`;
+      var url = `${title}/${currentPage}.jpg`;
       image.src = url;
     };
   </script>
